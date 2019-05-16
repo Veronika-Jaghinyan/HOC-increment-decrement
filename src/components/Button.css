@@ -1,0 +1,36 @@
+.increment {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 80px;
+}
+.decrement {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 240px;
+}
+
+.count {
+    font-size: 25px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 160px;
+}
