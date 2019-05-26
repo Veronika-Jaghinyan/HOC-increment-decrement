@@ -8,9 +8,9 @@ class HandleChange extends React.Component {
         const {increment, count, decrement} = this.props;
         return (
             <div>
-                <button class="increment" onClick = {increment}>+</button>
-                <span class="count">{count}</span>
-                <button class="decrement" onClick = {decrement}>-</button>
+                <button className="increment" onClick = {increment}>+</button>
+                <span className="count">{count}</span>
+                <button className="decrement" onClick = {decrement}>-</button>
             </div>
         )
     }
